@@ -1,0 +1,20 @@
+# HADIS — High Altitude Drone Intelligence System
+# YOLOv8 Dataset Configuration
+# Author: Prakash Tiwari, Chandigarh Engineering College (IKGPTU)
+#
+# This file is referenced by train_yolov8.ipynb during training.
+# All paths are relative to the 'path' root below.
+
+path: /content/drive/MyDrive/hadis-research/processed-data
+train: images/train
+val: images/val
+
+nc: 6
+
+names:
+  0: consumer_quadcopter
+  1: commercial_uav
+  2: tactical_uav
+  3: military_fixed_wing
+  4: loitering_munition
+  5: unknown
